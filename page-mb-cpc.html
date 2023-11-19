@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Easy PC</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="to-main-block__w-centr">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="icons/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="title-to-main">
+                        
+                    </div>
+                </div>
+                <div class="space_s"></div>
+
+                <div class="space"></div>
+                <div class="fyp-block__w-centr">
+                    <div class="fyp">
+                        <div class="favorites__fyp-block">
+                            <div class="fav__logo">
+                                <a href="">
+                                    <img src="icons/fav_icon.svg" alt="fav_icon">
+                                </a>
+                            </div>
+                            <div class="counter-circle"></div>
+                        </div>
+                        <div class="your-pc__fyp-block">
+                            <div class="yp__logo">
+                                <a href="">
+                                    <img src="icons/сase_icon.svg" alt="fav_icon">
+                                </a>
+                            </div>
+                            <div class="counter-circle">
+                                <div class="ypc-counter"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+            
+            
+        </header>
+
+        <header class="header2">
+            <div class="header2__container">
+                <div class="category-block">
+                    <div class="category-logo">
+                        <img src="icons/mb_icon.svg" alt="mb_icon">
+                    </div>
+                    <div class="category-lbl">Материнські плати</div>
+                    <button class="category-arrow__button" onclick="rotateArrow()">
+                        <img src="icons/arrow-category_icon.svg" alt="arrow-category_icon">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <header class="header3">
+            <div class="header3__container">
+               <div class="category-menu">
+                    <ul class="сategory-menu-list-group">
+                        <li class="category-item__current-item"><a href="page-mb-cpc.html">Материнські плати</a></li>
+                        <li class="category-item"><a href="page-gpu-cpc.html">Відеокарти</a></li>
+                        <li class="category-item"><a href="page-ram-cpc.html">Оперативна пам’ять</a></li>
+                        <li class="category-item"><a href="page-mmr-cpc.html">Накопичувач</a></li>
+                    </ul>
+                    <ul class="сategory-menu-list-group2">
+                        <li class="category-item"><a href="page-cpu-cpc.html">Процесори</a></li>
+                        <li class="category-item"><a href="page-ps-cpc.html">Блок живлення</a></li>
+                        <li class="category-item"><a href="page-cool-cpc.html">Кулери</a></li>
+                        <li class="category-item"><a href="page-case-cpc.html">Корпуси</a></li>
+                    </ul>
+               </div>
+            </div>
+        </header>
+
+
+        <main class="page"> 
+           <div class="page__container">
+
+                <div class="bc-sort-page-part">
+                    <div class="breadcrumbles-block">
+                        <div class="breadcrumbles">
+                            <span class="bc-ref">
+                                <a href="index.html">Головна</a>
+                            </span>
+                            <span class="bc-space"> / </span>
+                            <span class="bc-ref">
+                                <a href="index-mb-cpc.html">Зібрати свій пк вручну</a>
+                            </span>
+                            <span class="bc-space"> / </span>
+                            <span class="bc-ref">
+                                <a href="index-mb-cpc.html">Материнські плати</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sorting-block">
+                        <div class="sorting">
+                            <div class="select-container">
+                                <select class="select-box" name="" id="">
+                                    <option value="1">Від дешевих до дорогих</option>
+                                    <option value="2">Від дорогих до дешевих</option>                                
+                                </select>
+                                <div class="icon-sortlist-container">
+                                    <img src="icons/sortlist_arrow.svg" alt="sl-icon">
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>                   
+                </div>
+
+                <div class="сomponents-container">
+                    <div class="filter">
+                        <span class="filter-title">
+                            Фільтр категорії
+                        </span>
+                        <div class="price-range-container">
+                            <div class="filter-separator"></div>
+                            <span class="pr-title">
+                                Ціна
+                            </span>
+                            <div class="price-range-textbxs">
+                                <span class="pr-title-range">Від</span>
+                                <input type="number" class="range-box" value="0">
+                                <span class="pr-separator">-</span>
+                                <span class="pr-title-range">До</span>
+                                <input type="number" class="range-box" value="10000">
+                            </div>
+                            <div class="aply-button-block">
+                                <button class="aply-button" type="button">Застосувати</button>
+                            </div>
+                        </div>
+                        <!-- Checkbox-block-->
+                        <div class="checkboxs-container">
+                            <div class="filter-separator"></div>
+
+                                <span class="chkbx-title">
+                                    Бренд
+                                </span>
+                                <!-- Checkbox-cotainer item-->
+                                <div class="check-category">
+                                    <input type="checkbox" id="check">
+                                    <span class="check-title">
+                                        <span class="check-title-item">Agestar</span>
+                                    </span>                                    
+                                </div>
+                                <!-- Checkbox-cotainer item-->
+                                <div class="check-category">
+                                    <input type="checkbox" id="check">
+                                    <span class="check-title">
+                                        <span class="check-title-item">Gembird</span>
+                                    </span>                                     
+                                </div>
+                                <!-- Checkbox-cotainer item-->
+                                <div class="check-category">
+                                    <input type="checkbox" id="check">
+                                    <span class="check-title">
+                                        <span class="check-title-item">Seagate</span>
+                                    </span>                                    
+                                </div>
+                                <!-- Checkbox-cotainer item-->
+                                <div class="check-category">
+                                    <input type="checkbox" id="check">
+                                    <span class="check-title">
+                                        <span class="check-title-item">Toshiba</span>
+                                    </span>                                    
+                                </div>        
+                        </div>                
+                        <!-- Checkbox-block-->            
+                    </div>
+                                      
+                    <div class="content-block"></div>
+                </div>
+           </div>
+        </main>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+
+
+body {
+    background: rgb(5,0,255);
+    background: linear-gradient(90deg, rgb(3, 0, 151) 0%, rgb(236, 236, 236) 50%, rgb(146, 0, 0) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000000;   
+}
+
+h1{   
+    margin-top: 30px;
+    font-weight: 700;
+    color: #D9D9D9;
+    font: size 50px;
+    
+}
+
+h2{   
+    text-shadow: 0 8px 4px rgba(0, 0, 0, 0.75);
+    color: #D2D2D2;  
+    font-family: Montserrat;
+    font-size: 20px;  
+    font-weight: 700;
+   
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: clip;
+}
+
+
+[class*="__container"] {
+    display: flex;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+[class*="__content"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+[class*="__selector"]{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+} 
+
+.page__content{
+   
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+.header{
+
+    background: rgb(5,0,255);
+    background: linear-gradient(90deg, rgb(4, 0, 211) 0%, rgb(194, 0, 0) 100%);
+    display: flex;
+    height: 100px;
+    padding-top: 5px f;
+    padding-bottom: 5px;
+}
+
+
+
+.main-content{
+    display: flex;
+}
+
+
+.catalog-selector__selector{
+    
+    border-radius: 20px;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    background: rgb(252,252,252);
+    background: linear-gradient(90deg, #86010171 0%, #00000000 1%, #00000000 5%, #F99 25%, #b8b8b852 40%, #b8b8b852 60%, #a0b0ff 75%, #00000000 95%, #00000000 99%, #1a059171 100%);
+}
+
+
+
+.button-cpc__content{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #D53535 0%, #7D0000 100%);
+    flex-direction: column;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.button-cpc__content:hover{
+    background: linear-gradient(180deg, #9b2626 0%, #520000 100%);
+}
+
+
+.button-pc__content{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #3B2CE1 0%, #00186B 100%); 
+    flex-direction: column;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    
+}
+
+.button-pc__content:hover{
+    background: linear-gradient(180deg, #2a1fa3 0%, #001150 100%); 
+}
+
+
+
+
+
