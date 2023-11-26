@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Core i3 10100F",
+        "price": 2989,
+        "image": "image/Core i3 10100F.png",
+        "brand": "Intel",
+        "socket": "LGA1200",
+        "line": "Intel Core i3",
+        "number of cores": 4,
+        "processor clocl frequency": 3.6,
+        "core": "Comet Lake",
+        "number of stream": 8,
+        "multiplier": false,
+        "integrated gaphics": false,
+        "seies": "10gen"
+    },
+    {
+        "id": 2,
+        "name": "Ryzen 3 1200",
+        "price": 1099,
+        "image": "image/Ryzen 3 1200.png",
+        "brand": "AMD",
+        "socket": "sAM4",
+        "line": "Ryzen 3",
+        "number of cores": 4,
+        "processor clocl frequency": 3.4,
+        "core": "Summit Ridge",
+        "number of stream": 4,
+        "multiplier": true,
+        "integrated gaphics": false,
+        "seies": "1000"
+    },
+    {
+        "id": 3,
+        "name": "Ryzen 7 7700",
+        "price": 15419,
+        "image": "image/2.png",
+        "brand": "ADM",
+        "socket": "AM5",
+        "line": "Ryzen 7",
+        "number of cores": 8,
+        "processor clocl frequency": 3.8,
+        "core": "Zen",
+        "number of stream": 16,
+        "multiplier": true,
+        "integrated gaphics": true,
+        "series": "7000"
+    }
+]

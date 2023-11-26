@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "H510M H Gigabyte",
+        "price": 2599,
+        "image": "image/1.png",
+        "brand": "Gigabyte",
+        "socket": "s-1200",
+        "chipset":"Intel H510",
+        "form-factor":"Micro ATX",
+        "memory type":"DDR4",
+        "number-of-slots-for-ram":2,
+        "number-of-slots-for-gpu":1,
+        "type-of-conector-for-gpu":["PCI-# x16","PCI-# x1"],
+        "number-of-M.2":1,
+        "number-of-SATAIII":4,
+        "memory-capacity":1,
+        "type-of-connector-for-ps":"1 x 8-pin 12В" 
+    },
+    {
+        "id": 2,
+        "name": "A320 ASUS mATX",
+        "price": 2235,
+        "image": "image/2.png",
+        "brand": "Asus",
+        "socket": "s-AM4",
+        "chipset":"AMD A320",
+        "form-factor":"Micro ATX",
+        "memory type":"DDR4",
+        "number-of-slots-for-ram":4,
+        "number-of-slots-for-gpu":1,
+        "type-of-conector-for-gpu":["PCI-E x16"],
+        "number-of-M.2":1,
+        "number-of-SATAIII":4,
+        "memory-capacity":1,
+        "type-of-connector-for-ps":["1 x 24-pin EATX","1 x 4-pin 12V"]
+        
+    },
+    {
+        "id": 3,
+        "name": "A320 ASUS mATX",
+        "price": 5195,
+        "image": "image/2.png",
+        "brand": "MSI",
+        "socket": "Socket 1700",
+        "chipset":"Intel B760",
+        "form-factor":"Micro ATX",
+        "memory type":"DDR5",
+        "number-of-slots-for-ram":2,
+        "number-of-slots-for-gpu":1,
+        "type-of-conector-for-gpu":["PCI-E x16","PCI-E x16"],
+        "number-of-M.2":2,
+        "number-of-SATAIII":4,
+        "memory-capacity":1,
+        "type-of-connector-for-ps":["1 x 24-pin ATX","1 x 4-pin 12V"]
+    }
+]

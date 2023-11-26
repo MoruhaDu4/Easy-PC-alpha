@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2,
+        "name": "AMD Wraith Stealth",
+        "price": 400,
+        "image": "image/Ryzen 3 1200.png",
+        "brand": "AMD",
+        "type of cooling": "aerial",
+        "TDP": 80,
+        "numbers of fans": 1,
+        "diametеr": 100,
+        "compability with": "AMD"
+    },
+    {
+        "id": 3,
+        "name": "Zezzio ZH-C400 ARGB",
+        "price": 989,
+        "image": "image/2.png",
+        "brand": "AMD",
+        "type of cooling": "aerial",
+        "TDP": 145,
+        "numbers of fans": 1,
+        "diametеr": 120,
+        "compability with": "AMD"
+    }
+]

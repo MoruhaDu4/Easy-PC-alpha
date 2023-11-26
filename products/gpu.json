@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "RX 6400 AERO ITX 4G",
+        "price": 5611,
+        "image": "image/Core i3 10100F.png",
+        "brand": "MSI",
+        "series": "Radeon",
+        "chip": "Radeon RX 6400",
+        "slot": "PCI Express Gen 4 x 4",
+        "family": "Radeon RX 6000",
+        "memory capacity": "4GB GDDR6",
+        "numbers of fans": 1,
+        "connectors": [
+            "DisplayPort x 1",
+            "HDMI x 1"   
+        ]
+    },
+    {
+        "id": 2,
+        "name": "GTX1650 4GB Asus Phoenix EVO OC",
+        "price": 6559,
+        "image": "image/Ryzen 3 1200.png",
+        "brand": "ASUS",
+        "series": "Phoenix",
+        "chip": "NVIDIA GeForce GTX 1650",
+        "slot": "PCI Express 3.0",
+        "family": "GeForce",
+        "memory capacity ": "4GB GDDR6",
+        "numbers of fans": 1,
+        "connectors": [
+            "DisplayPort 1.4",
+            "HDMI 2.0b",
+            "DVI-D DL"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "RTX4060 8GB Palit Dual",
+        "price": 17299,
+        "image": "image/2.png",
+        "brand": "Palit",
+        "series": "GeForce RTX 40 Series",
+        "chip": "GeForce RTX 4060",
+        "slot": "PCI Express 4.0",
+        "family": "GeForce",
+        "memory capacity ": "8GB GDDR6",
+        "numbers of fans": 2,
+        "connectors": "DisplayPort 1.4a x 3"
+    }
+]

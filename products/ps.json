@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Gamemax 500W (GM-500B)",
+        "price": 929,
+        "image": "image/Core i3 10100F.png",
+        "brand": "Gamemax",
+        "power": 500,
+        "diameter of fan": 120,
+        "form-factor": "ATX 12V v2.3",
+        "conector for GPU": "1x6 pin",
+        "conector for MB": "20+4 pin",
+        "conector for Procesor": "4+4pin"
+    },
+    {
+        "id": 2,
+        "name": "",
+        "price": 1,
+        "image": "image/Ryzen 3 1200.png",
+        "brand": "",
+        "power": 1,
+        "diameter of fan": 1,
+        "form-factor": "", 
+        "conector for GPU": "",
+        "conector for MB": "",
+        "conector for Procesor": ""
+    },
+    {
+        "id": 3,
+        "name": "Gamemax 700W (GE-700)",
+        "price": 1629,
+        "image": "image/2.png",
+        "brand": "Gamemax",
+        "power": 700,
+        "diameter of fan": 120,
+        "form-factor": "ATX",
+        "conector for GPU": "6+2-pin",
+        "conector for MB": "20+4 Pin",
+        "conector for Procesor": "4+4 Pin"
+    }
+]

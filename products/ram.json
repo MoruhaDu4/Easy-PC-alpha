@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "16 GB (2x8) DDR4 3200 Mhz G.Skill Aegis",
+        "price": 1419,
+        "image": "image/Core i3 10100F.png",
+        "brand": "G.Skill Aegis",
+        "type of memory": "DDR4",
+        "memory capacity": 16,
+        "number of modules": 2,
+        "memory frequency": 3200
+    },
+    {
+        "id": 2,
+        "name": "8Gb DDR4 2666Mhz Goodram",
+        "price": 1124,
+        "image": "image/Ryzen 3 1200.png",
+        "brand": "Goodram",
+        "type of memory": "DDR4",
+        "memory capacity": 8,
+        "number of modules": 1,
+        "memory frequency": 2666
+    },
+    {
+        "id": 3,
+        "name": "16Gb DDR5 5600Mhz Kingston Fury Beast Black",
+        "price": 3113,
+        "image": "image/2.png",
+        "brand": "Kingston",
+        "type of memory": "DDR5",
+        "memory capacity": 16,
+        "number of modules": 1,
+        "memory frequency": 5600
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Frontier MARS",
+        "price": 1859,
+        "image": "image/Core i3 10100F.png",
+        "brand": "Frontier",
+        "form-factor of mb": [
+            "ATX",
+            "Mini-ATX",
+            "microATX"
+        ],
+        "form-factor of ps": "",
+        "type of case": "Midi Tower",
+        "bool ps": false,
+        "number of fans": 3,
+        "color": "Black"
+    },
+    {
+        "id": 2,
+        "name": "Gamemax MT525-2U3TYC-NP",
+        "price": 1179,
+        "image": "image/Ryzen 3 1200.png",
+        "brand": "Gamemax",
+        "form-factor of mb": [
+            "ATX",
+            "ITX",
+            "microATX"
+        ],
+        "form-factor of ps": "",
+        "type of case": "Midi Tower",
+        "bool ps": false,
+        "number of fans": 0,
+        "color": "Black"
+    },
+    {
+        "id": 3,
+        "name": "A320 ASUS mATX",
+        "price": 2829,
+        "image": "image/2.png",
+        "brand": "Versum",
+        "form-factor of mb": "microATX",
+        "form-factor of ps": "",
+        "type of case": "Minitower",
+        "bool ps": false,
+        "number of fans": 0,
+        "color": "Black"
+    }
+]
